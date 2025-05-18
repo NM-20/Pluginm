@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluginm", "Pluginm\Pluginm.csproj", "{93489AB9-9D0F-4E37-B86F-16F414627086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyControls", "Pluginm\Submodules\FrostyToolsuite\FrostyControls\FrostyControls.csproj", "{51D3305B-48D0-4D4C-9D64-727185420EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyCore", "Pluginm\Submodules\FrostyToolsuite\FrostyPlugin\FrostyCore.csproj", "{D86D23D9-DB93-4D4E-B383-5022F759ABA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostySdk", "Pluginm\Submodules\FrostyToolsuite\FrostySdk\FrostySdk.csproj", "{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{736C6B93-20AB-42F4-8978-12314E266D12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrostyHash", "Pluginm\Submodules\FrostyToolsuite\FrostyHash\FrostyHash.vcxproj", "{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Developer - Debug|x64 = Developer - Debug|x64
+		Release - Alpha|x64 = Release - Alpha|x64
+		Release - Beta|x64 = Release - Beta|x64
+		Release - Final|x64 = Release - Final|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Debug|x64.ActiveCfg = Debug|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Debug|x64.Build.0 = Debug|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Developer - Debug|x64.ActiveCfg = Debug|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Developer - Debug|x64.Build.0 = Debug|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Alpha|x64.ActiveCfg = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Alpha|x64.Build.0 = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Beta|x64.ActiveCfg = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Beta|x64.Build.0 = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Final|x64.ActiveCfg = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release - Final|x64.Build.0 = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release|x64.ActiveCfg = Release|x64
+		{93489AB9-9D0F-4E37-B86F-16F414627086}.Release|x64.Build.0 = Release|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Debug|x64.ActiveCfg = Developer - Debug|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Debug|x64.Build.0 = Developer - Debug|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Developer - Debug|x64.ActiveCfg = Developer - Debug|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Developer - Debug|x64.Build.0 = Developer - Debug|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Alpha|x64.ActiveCfg = Release - Alpha|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Alpha|x64.Build.0 = Release - Alpha|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Beta|x64.ActiveCfg = Release - Beta|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Beta|x64.Build.0 = Release - Beta|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Final|x64.ActiveCfg = Release - Final|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release - Final|x64.Build.0 = Release - Final|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release|x64.ActiveCfg = Release - Final|x64
+		{51D3305B-48D0-4D4C-9D64-727185420EAC}.Release|x64.Build.0 = Release - Final|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Debug|x64.ActiveCfg = Developer - Debug|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Debug|x64.Build.0 = Developer - Debug|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Developer - Debug|x64.ActiveCfg = Developer - Debug|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Developer - Debug|x64.Build.0 = Developer - Debug|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Alpha|x64.ActiveCfg = Release - Alpha|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Alpha|x64.Build.0 = Release - Alpha|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Beta|x64.ActiveCfg = Release - Beta|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Beta|x64.Build.0 = Release - Beta|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Final|x64.ActiveCfg = Release - Final|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release - Final|x64.Build.0 = Release - Final|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release|x64.ActiveCfg = Release - Alpha|x64
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8}.Release|x64.Build.0 = Release - Alpha|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Debug|x64.ActiveCfg = Developer - Debug|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Debug|x64.Build.0 = Developer - Debug|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Developer - Debug|x64.ActiveCfg = Developer - Debug|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Developer - Debug|x64.Build.0 = Developer - Debug|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Alpha|x64.ActiveCfg = Release - Alpha|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Alpha|x64.Build.0 = Release - Alpha|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Beta|x64.ActiveCfg = Release - Beta|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Beta|x64.Build.0 = Release - Beta|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Final|x64.ActiveCfg = Release - Final|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release - Final|x64.Build.0 = Release - Final|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release|x64.ActiveCfg = Release - Final|x64
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0}.Release|x64.Build.0 = Release - Final|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Debug|x64.ActiveCfg = Developer - Debug|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Debug|x64.Build.0 = Developer - Debug|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Developer - Debug|x64.ActiveCfg = Developer - Debug|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Developer - Debug|x64.Build.0 = Developer - Debug|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Alpha|x64.ActiveCfg = Release - Alpha|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Alpha|x64.Build.0 = Release - Alpha|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Beta|x64.ActiveCfg = Release - Beta|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Beta|x64.Build.0 = Release - Beta|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Final|x64.ActiveCfg = Release - Final|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release - Final|x64.Build.0 = Release - Final|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release|x64.ActiveCfg = Release - Beta|x64
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA}.Release|x64.Build.0 = Release - Beta|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51D3305B-48D0-4D4C-9D64-727185420EAC} = {736C6B93-20AB-42F4-8978-12314E266D12}
+		{D86D23D9-DB93-4D4E-B383-5022F759ABA8} = {736C6B93-20AB-42F4-8978-12314E266D12}
+		{93FB4A0C-DF89-4169-80B5-C4E2277FF7A0} = {736C6B93-20AB-42F4-8978-12314E266D12}
+		{D1A29BF8-2E2E-47BE-845F-A6DD66D175BA} = {736C6B93-20AB-42F4-8978-12314E266D12}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B027A879-EB6D-448D-BCFD-1D99B645AE09}
+	EndGlobalSection
+EndGlobal

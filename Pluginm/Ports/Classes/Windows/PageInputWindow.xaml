@@ -1,0 +1,57 @@
+﻿<fctrl:FrostyDockableWindow x:Class="Pluginm.Ports.Classes.Windows.PageInputWindow"
+                           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                           xmlns:local="clr-namespace:Pluginm.Ports.Classes.Windows"
+                           xmlns:classes="clr-namespace:Pluginm.Ports.Classes"
+                           xmlns:fcore="clr-namespace:Frosty.Core.Controls;assembly=FrostyCore"
+                           xmlns:fctrl="clr-namespace:Frosty.Controls;assembly=FrostyControls"
+                           Height="542"
+                           ResizeMode="NoResize"
+                           Title="Page Input"
+                           Width="550"
+                           WindowStartupLocation="CenterScreen">
+    <Grid Background="{StaticResource WindowBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <fcore:FrostyPropertyGrid x:Name="assetPropertyGrid"
+                                  Foreground="{StaticResource FontColor}"
+                                  Grid.Row="0" />
+        <Border Grid.Row="1"
+                Background="{StaticResource ListBackground}">
+            <Grid Margin="0,8,8,8">
+                <!-- Left section of bottom content -->
+
+                <TextBlock Name="pageText"
+                           FontFamily="Global User Interface"
+                           Foreground="{StaticResource FontColor}"
+                           Margin="10,0,0,0"
+                           Text="No pages available"
+                           VerticalAlignment="Center" />
+
+                <!-- Right section of bottom content -->
+
+                <!-- Page selection buttons -->
+                <!-- These buttons vary on functionality depending on the selected page. The first page being selected would alter Back to Cancel, with the last page being selected altering Next to Ok. -->
+                <Button Name="nextButton"
+                        Click="NextButton_Click"
+                        Content="Next"
+                        HorizontalAlignment="Right"
+                        IsEnabled="False"
+                        ToolTip="Proceed to the next available page. (Enter)"
+                        Width="85" />
+                <!-- Copied button above as a template, this may also be done for other UI. -->
+                <Button Name="cancelButton"
+                        Click="CancelButton_Click"
+                        Content="Cancel"
+                        HorizontalAlignment="Right"
+                        Margin="0,0,95,0"
+                        ToolTip="Close the window. (Esc)"
+                        Width="85" />
+            </Grid>
+        </Border>
+    </Grid>
+</fctrl:FrostyDockableWindow>

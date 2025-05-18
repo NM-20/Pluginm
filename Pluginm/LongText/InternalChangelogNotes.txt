@@ -1,0 +1,11 @@
+﻿v1.0.0.1 (08/28/2022)
+---------------------
+ - Added compatibility for 1.0.7.0.
+ - Added a confirmation prompt to the Revert option, preventing accidental uses.
+
+v1.0.0.0 (10/05/2021)
+---------------------
+ - Initial release. The plugin launched with the following features and alterations:
+    - A new "Asset Export Options" window that allows for exporting an asset's dependencies and customization of multi-select export.
+    - Additional polish to the data explorer's Revert and Import ContextMenu options that will either disable them or update their header to represent their current functionality.
+    - Full multi-select support for the data explorer's ContextMenu menu items.

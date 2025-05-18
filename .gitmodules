@@ -1,0 +1,4 @@
+[submodule "Pluginm/Submodules/FrostyToolsuite"]
+	path = Pluginm/Submodules/FrostyToolsuite
+	url = https://github.com/CadeEvs/FrostyToolsuite.git
+	branch = 1.0.6.3
